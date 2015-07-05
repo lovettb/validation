@@ -1,0 +1,26 @@
+{
+    "name": "lovettb/validation",
+    "description": "Custom libary of Crhayes",
+    "keywords": ["laravel", "validation", "service"],
+    "authors": [
+        {
+            "name": "lovettb",
+            "email": "haistyle@Live.Com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0|~5.1",
+        "illuminate/validation": "~5.0|~5.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lovettb\\validation\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
